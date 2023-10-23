@@ -5,7 +5,7 @@ A quick python + pygame test in the spirit of Space Invaders.
 
 Requirements
 ============
-- Pyton 3.9+
+- Python 3.9+
 - pygame 2+
 
 
