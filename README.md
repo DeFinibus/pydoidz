@@ -8,9 +8,24 @@ Requirements
 - Python 3.9+
 - pygame 2+
 
+Running the game
+================
+Install Python 
+install Pygame (pip install pygame)
+run main.py (python main.py)
 
-Bugs: Title music does not work on Linux (pygame issue)
+LEFT and RIGHT arrow moves the ship
+SPACE - FIRE 
 
-LICENSE: Completely Free. <br>
+Bugs: 
+=====
+Title music does not work on Linux (pygame issue)
+
+LICENSE: 
+=======
+Completely Free. <br>
+
+Resources used
+==================================
 Sound effects from internet. <br>
 Music by Eric Matyas

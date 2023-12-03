@@ -47,7 +47,7 @@ lose_image = font1.render("GAME OVER!",True,(255,255,255))
 lvl_cpl_img = font2.render("LEVEL COMPLETED",True,(200,200,200))
 next_lvl_img = font2.render("PREPARE FOR NEXT LEVEL..",True,(200,200,200))
 
-cred1 = font4.render("by Mika Pelttari.",True,(0,255,0))
+cred1 = font4.render("by DeFinibus",True,(0,255,0))
 cred2 = font4.render("Title music: \"Electric Rain\" by Eric Matyas",True,(0,255,0))
 
 
