@@ -10,8 +10,8 @@ Requirements
 
 Running the game
 ================
-Install Python 
-install Pygame (pip install pygame)
+Install Python <br>
+install Pygame (pip install pygame) <br>
 run main.py (python main.py)
 
 LEFT and RIGHT arrow moves the ship
