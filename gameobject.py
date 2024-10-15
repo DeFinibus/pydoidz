@@ -65,7 +65,7 @@ class obuhandler:
     def foe_dies(self):
         self.dead_foes += 1
     def player_dies(self):
-        pass
+        self.player.state = gameconst.DEAD
     def update(self,screen):
         for o in self.groups:
             o.update()
@@ -152,6 +152,8 @@ class foe(obuGroup):
             self.xspeed = -self.xspeed
             self.y += 48
             ydelta = 48
+            if self.y > gameconst.SCREEN_H - 48:
+                 self.oh.player_dies()
         for i in range(len(self.objects)):
             obj = self.objects[i]
             obj.xspeed = self.xspeed
